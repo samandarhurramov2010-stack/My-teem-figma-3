@@ -1,0 +1,52 @@
+:root {
+  /* Colors */
+  --primary-color: #7EA2C7;
+  --secondary-color: #FFFFFF;
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --border-color: #E5E7EB;
+  --background-color: #F8FAFC;
+  --card-bg: #FFFFFF;
+
+  /* Fonts */
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+
+  /* Font Sizes */
+  --fs-xs: 12px;
+  --fs-sm: 14px;
+  --fs-md: 16px;
+  --fs-lg: 20px;
+  --fs-xl: 32px;
+  --fs-xxl: 56px;
+
+  /* Font Weights */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 32px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.12);
+
+  /* Container */
+  --container-width: 1440px;
+
+  /* Spacing */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 32px;
+  --space-xl: 48px;
+  --space-xxl: 80px;
+
+  /* Transition */
+  --transition: all 0.3s ease;
+}
