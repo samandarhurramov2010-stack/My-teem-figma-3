@@ -1,12 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <input id="menu-toggle" class="menu-toggle" type="checkbox" />
+
+    <div class="page">
+      <header class="site-header" aria-label="Primary Header">
+        <label for="menu-toggle" class="menu-pill" aria-label="Open menu">
+          <span class="menu-icon" aria-hidden="true"><span></span></span>
+          Menu
+        </label>
+
+        <div class="logo" aria-label="Perumnas">
+          <img src="./assets/icons/Logo (6).png" alt="" />
+        </div>
+
+        <nav class="header-links" aria-label="Primary Navigation">
+          <a href="#">Contact Us</a>
+          <a href="#">About Us</a>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <section class="hero" aria-label="Hero Section">
+          <div class="hero-inner">
+            <h1>More Comfortable.<br />More Classy.</h1>
+            <p>Make your living experience even more memorable.</p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <label for="menu-toggle" class="drawer-backdrop" aria-hidden="true"></label>
+
+    <aside class="side-drawer" aria-label="Sidebar Menu">
+      <div class="drawer-head">
+        <div class="drawer-logo">Perumnas</div>
+        <label for="menu-toggle" class="drawer-close" aria-label="Close menu"
+          >&times;</label
+        >
+      </div>
+      <nav class="drawer-links">
+        <a href="#">Home</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About Us</a>
+      </nav>
+    </aside>
+  </body>
 </html>
