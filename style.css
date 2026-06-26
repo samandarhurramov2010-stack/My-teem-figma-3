@@ -4,7 +4,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+.site__section-inner {
+  width: 375px;
+  height: 728.77px;
+  padding: 60px 20px;
+  gap: 60px;
+}
+.site__text-big{
+  width: 335px;
+  height: 180px;
+  opacity: 1;
+  gap: 32px;
 
+}
+.site__text-wrapper{
+  width: 335px;
+  height: 706px;
+  opacity: 1;
+  gap: 20px;
+}
+/* css codlar */
 .p__text {
   width: 335;
   height: 96;
@@ -25,22 +44,76 @@
   color: #61656e;
 }
 
-.site__img-one {
-  width: 143.95px;
-  height: 167.5px;
+.site__imgss {
+  position: relative;
 }
 
-@media (max-width: 375px) {
+.site__img-one {
+  width: 550px;
+  height: 640px;
+}
+/* textlar  */
+.Frequently {
+  width: 550px;
+  height: 104px;
+  color: #12161d;
+  font-weight: 500px;
+  font-size: 44px;
+  line-height: 52px;
+}
+.Ifthere {
+  width: 550px;
+  height: 52px;
+  color: #61656e;
+  font-size: 18px;
+  font-weight: 400px;
+}
+.Whatis {
+  width: 375px;
+  height: 32px;
+  color: #12161d;
+  font-size: 24px;
+  font-weight: 500;
+}
+.Cluster {
+  width: 618px;
+  height: 78px;
+  color: #61656e;
+  font-size: 18px;
+  font-weight: 400px;
+}
+.Where {
+  width: 582px;
+  height: 32px;
+  color: #12161d;
+  font-size: 24px;
+  font-weight: 500px;
+}
+.Howmuch {
+  width: 582px;
+  height: 64px;
+  color: #12161d;
+  font-size: 24px;
+  font-weight: 500px;
+}
+.Whatare {
+  width: 582px;
+  height: 64px;
+  color: #12161d;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 376px) {
   .p__text {
     width: 335;
     height: 96;
-    margin-top: 90px;
     opacity: 1;
+    margin-bottom: 32px;
     font-weight: 500px;
     font-size: 36px;
     line-height: 48px;
     color: #12161d;
-    background-color: yellow;
   }
 
   .p__text-one {
@@ -54,10 +127,105 @@
   }
 
   .site__img-one {
+    position: absolute;
     width: 143.95px;
     height: 167.5px;
+    top: 137.99px;
   }
-  body {
-    border-color: lime !important;
+
+  .site__img-two {
+    position: absolute;
+    top: 60px;
+    left: 160.03px;
+    right: 20px;
+    width: 177.97px;
+    height: 192.1px;
+  }
+
+  .site__img-three {
+    position: absolute;
+    top: 269.9px;
+    left: 177.03px;
+    width: 120.65px;
+    height: 80.87px;
+  }
+  /* textlar  */
+  .site__section-inner {
+  width: 375px;
+  height: 728.77px;
+  padding: 60px 20px;
+  gap: 60px;
+}
+.site__text-big{
+  width: 335px;
+  height: 180px;
+  opacity: 1;
+  gap: 32px;
+
+}
+.site__text-wrapper{
+  width: 335px;
+  height: 706px;
+  opacity: 1;
+  gap: 20px;
+}
+/* <---------------> */
+
+  .Frequently {
+    width: 335px;
+    height: 96px;
+    margin-top: 60px;
+    color: #12161d;
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .Ifthere {
+    width: 335px;
+    height: 52px;
+    margin-top: 32px;
+    color: #61656e;
+    font-size: 18px;
+    font-weight: 400px;
+  }
+  .Whatis {
+    width: 263px;
+    height: 56px;
+    margin-top: 80px;
+    color: #12161d;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .Cluster {
+    width: 295px;
+    height: 182px;
+    margin-top: 24px;
+    color: #61656e;
+    font-size: 18px;
+    font-weight: 400px;
+  }
+  .Where {
+    width: 251px;
+    height: 56px;
+    margin-top: 40px;
+    color: #12161d;
+    font-size: 20px;
+    font-weight: 500px;
+  }
+  .Howmuch {
+    width: 251px;
+    height: 84px;
+    margin-top:40px ;
+    color: #12161d;
+    font-size: 20px;
+    font-weight: 500px;
+  }
+  .Whatare {
+    width: 251px;
+    height: 84px;
+    margin-top: 40px;
+    color: #12161d;
+    font-size: 20px;
+    font-weight: 500;
   }
 }
